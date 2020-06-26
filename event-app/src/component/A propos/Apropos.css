@@ -1,0 +1,42 @@
+
+.carousell{
+  background: url("../../images/about-bg.jpg");
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  color: #fff;
+  padding: 60px 0 40px 0;
+}
+.carousell:before {
+  content: "";
+  background: rgba(13, 20, 41, 0.8);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+
+
+.carousell h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.carousell h2 {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: #fff;
+
+}
+
+.carousell p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #fff;
+}
